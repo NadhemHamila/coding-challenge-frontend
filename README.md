@@ -1,15 +1,17 @@
 # Coding Challenge frontend
 
 ## Getting started
-1. **Build Docker Image:** `docker build . -t coding-challenge-docker-image -f ./Docker/Dockerfile`
-2. **Run Docker Image (Run Backend server):** `docker run -p 5001:5000 coding-challenge-docker-image`
+1. **Build Docker Image:** `docker build . -t react-app -f src/Docker/Dockerfile`
+2. **Run Docker Image** 
+```
+docker run \                                                                       
+    -it \
+    --rm \
+    -v ${PWD}:/app \
+    -v /app/node_modules \
+    -p 3000:3000 \
+    -e CHOKIDAR_USEPOLLING=true \
+    react-app
+```
 
-## Running the integration tests
-
-`pytest src/tests/test_integration.py`
-
-## Available endpoints :
-
-"/add" : This endpoint will be used to add numbers 
-
-"/sample10" : This endpoint will be used to sample 10 random numbers
+## The frontend would be running on : http://localhost:3000/
