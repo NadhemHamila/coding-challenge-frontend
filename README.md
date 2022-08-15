@@ -21,6 +21,6 @@ docker run \
 - Press Add to add a number
 - Press sample to sample 10 random numbers
 
-![alt text](https://ibb.co/KwtWtLn)
-![alt text](https://ibb.co/LQHDqVV)
-![alt text](https://ibb.co/7jwrvWt)
+![Home screen](https://i.ibb.co/16CTCdc/Screenshot-2022-08-15-at-22-34-22.png)
+![Add number](https://ibb.co/LQHDqVV)
+![Result of sampling](https://i.ibb.co/RYxQ20T/Screenshot-2022-08-15-at-22-41-19.png)
