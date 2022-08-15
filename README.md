@@ -15,3 +15,12 @@ docker run \
 ```
 
 ## The frontend would be running on : http://localhost:3000/
+
+## Scrrenshots from the frontend :
+
+- Press Add to add a number
+- Press sample to sample 10 random numbers
+
+![alt text](https://ibb.co/KwtWtLn)
+![alt text](https://ibb.co/LQHDqVV)
+![alt text](https://ibb.co/7jwrvWt)
